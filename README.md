@@ -1,5 +1,4 @@
 #Cool Practice Programs
-<hr>
 
 This repository contains the C/Python codes for interesting problems aimed at giving beginners in programming a good practice. <br>
 
@@ -9,9 +8,8 @@ This repository contains the C/Python codes for interesting problems aimed at gi
 <i>Note: To be taken up only if you are thorough with the basic programming concepts.</i><br>
 
 <b>CodeChef Programs:</b> This directory contains my solution codes for various problems listed on CodeChef.<br>
-
-###How to Contribute
 <hr>
+###How to Contribute
 
 Please note that all the programs must follow the Linux Kernel Coding Style for consistency. </br>
 Refer to: [Linux Coding Style Documentation](https://www.kernel.org/doc/Documentation/CodingStyle)
