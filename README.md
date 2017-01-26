@@ -7,7 +7,7 @@ This repository contains the C/Python codes for interesting problems aimed at gi
 <b>DSA-Programs:</b> This directory contains the codes for important Data Structures and Algorithms. Most implementations are of algorithms given in <b>Introduction to Algorithms</b> by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein.<br>
 <i>Note: To be taken up only if you are thorough with the basic programming concepts.</i><br>
 
-<b>CodeChef Programs:</b> This directory contains my solution codes for various problems listed on CodeChef.<br>
+<b>CodeChef Programs:</b> This directory contains solution codes for various problems listed on CodeChef.<br>
 <hr>
 ###How to Contribute
 
