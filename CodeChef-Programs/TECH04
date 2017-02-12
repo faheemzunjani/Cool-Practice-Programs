@@ -1,0 +1,61 @@
+
+#include<stdio.h>
+#include<string.h>
+ 
+int main(){
+ 
+int t,flag=0,l1,l2,i,j;
+char s1[26],s2[26];
+ 
+scanf("%d",&t);
+ 
+while(t>0){
+ 
+scanf("%s %s",&s1,&s2);
+l1=strlen(s1);
+l2=strlen(s2);
+ 
+flag=0;
+if(l1==l2){
+int c1[26]={0};
+char *x=s1;
+ 
+while(*x){
+c1[*x-91]++;
+x++;
+}
+ 
+x=s1;
+for(i=0;i<26;i++ )
+while(c1[i])
+{
+*x=i+91;
+x++;
+c1[i]--;
+}
+int c2[26]={0};
+x=s2;
+while(*x){
+c2[*x-91]++;
+x++;
+}
+ 
+x=s2;
+ 
+for(i=0;i<26;i++ )
+while(c2[i])
+{
+*x=i+91;
+x++;
+c2[i]--;
+}
+if(!strcmp(s1,s2))
+flag=1;
+}
+if(flag)printf("YES\n");
+else printf("NO\n");
+t--;
+}
+ 
+return 0;
+} 
